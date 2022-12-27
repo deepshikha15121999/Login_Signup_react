@@ -39,10 +39,10 @@ export default function Signup() {
         }      
     }
     return (
-        <div id='box'>
-          
+        <div id='box'>       
             <center>
-                <center>
+            <form>
+                <center>                 
                     <h3>SIGNUP FORM</h3></center>
                 <table>
                     <tr>
@@ -93,6 +93,7 @@ export default function Signup() {
                     check()
                     {boolean? navi('/dashboard'):<Signup/>}
                 } }>SUBMIT</button></center>
+                </form>
             </center>
         </div>
     )
